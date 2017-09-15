@@ -31,4 +31,4 @@ class PrefixQuery(object):
                     elif j == t_len:
                         result_word = word
                         last_index = j - 1
-        return result_word, last_index
+        return result_word, last_index+ 1
